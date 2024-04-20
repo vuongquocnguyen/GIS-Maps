@@ -1,0 +1,7 @@
+
+.leaflet-control a {
+     background-image: url(../img/measure-control.png);
+}
+.leaflet-control.enabled a {
+    background-color: #CCC;
+}

@@ -1,0 +1,17 @@
+#header{background-image: none;
+					
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    
+}
+#header #dangxuat{
+    position: absolute;
+    top: 5%;
+    width: 20%;
+    height: auto;
+    margin-left: 80%;
+    }

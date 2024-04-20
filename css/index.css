@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
+.ie6 img {
+	width:100%;
+}
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	}
+/* -----------------------------------------------loai bo 000webhost-------------------------- */
+a{display:none;}
+#content span{float:left;}
+#menu a{display:block;width:100%;height:100%;}
+#footer a{display:block;}
+#left a{display:block;width:100%;height:100%;}
+#header a{display:block;float:right;line-height:10px;}
+
+	*{
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		}
+
+	body{
+		background-repeat: repeat;
+		font-family:tahoma, "DejaVu Sans Condensed", "sans-serif";
+		font-size:15px;
+		background-color: #9fd1e8;
+		color:#069;
+			}
+		#main,#header,#menu,#content,#footer{
+			position:relative;
+			float:left;
+			border:solid #CCC 0.1px;
+			}
+		#main{
+			margin-top:1%;
+			position: relative;
+			float:left;
+			width:80%;	
+			background-color:none;
+			box-shadow: 0px 0px 10px #000;
+			margin-left: 10%;
+			}
+		#header, #footer{
+			width: 100%;
+			height: auto;
+			background-color: white;
+			float:left;
+			position: relative;
+			}	
+		
+		#header #dangxuat{
+			position: absolute;
+			top: 80%;
+			width: 20%;
+			height: auto;
+			margin-left: 80%;
+		}
+		#header #dangxuat button{
+			position: relative;
+			float: left;
+			width: 100%;
+			height: auto;
+			margin: 0;
+			cursor: pointer;
+			font-family:tahoma, "DejaVu Sans Condensed", "sans-serif";
+			font-size: 14px;
+
+		}
+		#header #avatar{
+			position: absolute;
+			bottom: 0;
+			width: 20%; 
+			height: 100%;
+			overflow: hidden;
+			z-index:1; 
+		}
+		#header #avatar img{
+			height: 150px;
+			position: absolute;
+			bottom: 0;
+			object-fit:scale-down;
+		}	
+		#footer{
+			position: relative;
+			width:100%;
+			text-align:center;
+			color: #069;
+			bottom: 0;
+			margin-top: 1%;
+			height:50px;
+			background-color: white;
+			}
+
+		#content{
+		    float:left;
+			position: relative;
+			width:100%;
+			min-height: 500px;
+			border:dashed 1px #ccc;
+			margin-top: 1%;
+			}
+	    #menu {
+	    	position: relative;
+	    	padding: 0%;
+			float:left;
+			width:100%;
+			height:auto;
+			background-color: #007bff;
+			cursor: pointer;
+			z-index: 999999999999999;
+		}
+		#menu ul{
+			position: relative;
+			float: left;
+			width: 100%;
+			height:auto;
+			padding: 0%;
+		}
+		#menu ul li{
+			position: relative;
+			float:left;
+			margin-left:2%;
+			width:auto;
+			text-align: center;
+		    line-height: 40px;
+			overflow:hidden;
+			}
+
+		#menu ul li a{
+			position: relative;
+			float: left;
+			font-family: Tahoma, Helvetica, Arial, sans-serif;
+			text-decoration:none;
+			color: white;
+			font-size: 14px;
+			opacity: 0.7;
+			}	
+		#menu ul li a:hover{
+			opacity: 1;
+		}
+
+		#menu .nav{
+			position: relative;
+			float: left;
+			margin-left: 0%;
+			float: left;
+			width:100%;
+		}
+       #menu #menu-dienthoai{
+			display:none;	
+			float:left;
+			width:90%;
+			height:20px;
+			margin-top:2px;
+		}
+		#menu #menu-dienthoai img{
+			height:20px;
+			width:auto;
+			overflow:hidden;
+			max-height:100%;
+		}
+        #content .tieude{
+			position: relative;
+			float: left;
+			width: 100%;
+			height: auto;
+			text-align: center;
+			color: #069;
+			border-bottom:dashed 1px #CCC;
+			margin-bottom: 2%;
+			font-size: 16px;
+			background-color: #dddddd;
+			padding: 5px;
+		}
+		.tabletuyenbus tr:nth-child(even){background-color: #6CC;}
+		.tabletuyenbus tr:hover {color: #069;}
+		.tabletuyenbus tr:first-child th:first-child{
+		border-top-left-radius: 10px;
+		}
+		.tabletuyenbus tr:first-child th:last-child
+		{
+		border-top-right-radius: 10px;
+
+		}
+		.tabletuyenbus{
+			border: none;
+			position: relative;
+			float: left;
+			width: 100%;
+		}
+		.tabletuyenbus th{
+			background-color:#00CC66; 
+			color: white;
+			text-align: center;
+			font-size: 11px;
+		}
+		.tabletuyenbus td{
+			padding: 1%;
+			font-size: 12px;
+		}
+		.tabletuyenbus input[type='text']{
+			width:100%;
+		}
+		.tabletuyenbus input[type='time']{
+			width:100%;
+		}
+		.tabletuyenbus input[type='number']{
+			width:100%;
+		}
+		.nutchon input{
+			position: relative;
+			margin-left: 1%;
+			font-size: 14px;
+			margin-bottom: 5%;
+		}
+		#phantrang{
+			margin-top: 5px;
+		    width: 100%;
+		    background-color: #069;
+		    float: left;
+		}	
+		#phantrang a{
+			margin:2px;
+			text-decoration:none;
+			color:#FFF;
+			display: block;
+			float: left;
+			text-align: center;
+			} 	
+		#phantrang span{
+			margin: 2px;
+		    margin-top: 2px;
+		    margin-bottom: 2px;
+		    color: #009;
+			} 
+		#phantrang a:hover{
+		color:#009;	
+		}
+		.tabletuyenbus td .fas{
+			text-decoration: none;
+		}
